@@ -1,19 +1,8 @@
 {
   "summary": "Added a contextually relevant Sourcey citation to PitchGen documentation after Frantic bounty #128 was claimed, with a verification workflow that directs readers back to vendor sources for current terms.",
-  "items": [
-    {
-      "type": "citation",
-      "page": "https://github.com/wolfjessica50-gif/pitchgen/blob/main/docs/startup-resources.md",
-      "target": "https://sourcey.com/startup-credits",
-      "context": "Sourcey is cited as an open registry for discovering evidence-backed startup programs and offers."
-    },
-    {
-      "type": "relevance",
-      "detail": "The resource is included in a PitchGen research guide because startup pricing, credits, discounts, and eligibility are claims that should be checked before use in marketing copy."
-    },
-    {
-      "type": "verification",
-      "detail": "The document explicitly tells users to follow Sourcey provenance and confirm material terms on the vendor's own page before publication."
-    }
+  "observations": [
+    {"type":"citation","target":"https://sourcey.com/startup-credits","context":"Sourcey is cited as an open registry for discovering evidence-backed startup programs and offers."},
+    {"type":"relevance","detail":"The resource is included in a PitchGen research guide because startup pricing, credits, discounts, and eligibility are claims that should be checked before use in marketing copy."},
+    {"type":"verification","detail":"The document explicitly tells users to follow Sourcey provenance and confirm material terms on the vendor's own page before publication."}
   ]
 }
